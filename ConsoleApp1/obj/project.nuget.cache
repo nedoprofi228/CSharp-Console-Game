@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "OpD6LQjTAGPzoO4PfEb7Bf6j8V1D3j8mOZSEMzMTrjRhViQfccKPB9vhgAgfQhHGY68IDS9j8j45lKC0b0eHeQ==",
+  "success": true,
+  "projectFilePath": "E:\\C#_Projects\\ConsooleGame\\C-Game\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\antinoob\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\antinoob\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\antinoob\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "C:\\Users\\antinoob\\.nuget\\packages\\silk.net.core\\2.20.0\\silk.net.core.2.20.0.nupkg.sha512",
+    "C:\\Users\\antinoob\\.nuget\\packages\\silk.net.maths\\2.20.0\\silk.net.maths.2.20.0.nupkg.sha512",
+    "C:\\Users\\antinoob\\.nuget\\packages\\silk.net.opengl\\2.20.0\\silk.net.opengl.2.20.0.nupkg.sha512",
+    "C:\\Users\\antinoob\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\antinoob\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\antinoob\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\antinoob\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\antinoob\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
