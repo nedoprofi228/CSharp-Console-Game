@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C#_Projects\\ConsooleGame\\MyFirstC#GameInConsole\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C03D83E-D0FE-4164-AFB6-7663A5C7ECDA}|ConsoleApp1\\ConsoleApp1.csproj|e:\\c#_projects\\consoolegame\\myfirstc#gameinconsole\\consoleapp1\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C03D83E-D0FE-4164-AFB6-7663A5C7ECDA}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C03D83E-D0FE-4164-AFB6-7663A5C7ECDA}|ConsoleApp1\\ConsoleApp1.csproj|e:\\c#_projects\\consoolegame\\myfirstc#gameinconsole\\consoleapp1\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C03D83E-D0FE-4164-AFB6-7663A5C7ECDA}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C03D83E-D0FE-4164-AFB6-7663A5C7ECDA}|ConsoleApp1\\ConsoleApp1.csproj|e:\\c#_projects\\consoolegame\\myfirstc#gameinconsole\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C03D83E-D0FE-4164-AFB6-7663A5C7ECDA}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C03D83E-D0FE-4164-AFB6-7663A5C7ECDA}|ConsoleApp1\\ConsoleApp1.csproj|e:\\c#_projects\\consoolegame\\myfirstc#gameinconsole\\consoleapp1\\gameobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C03D83E-D0FE-4164-AFB6-7663A5C7ECDA}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\gameobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C03D83E-D0FE-4164-AFB6-7663A5C7ECDA}|ConsoleApp1\\ConsoleApp1.csproj|e:\\c#_projects\\consoolegame\\myfirstc#gameinconsole\\consoleapp1\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C03D83E-D0FE-4164-AFB6-7663A5C7ECDA}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2d7728c2-de0a-45b5-99aa-89b609dfde73}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Config.cs",
+              "DocumentMoniker": "E:\\C#_Projects\\ConsooleGame\\MyFirstC#GameInConsole\\ConsoleApp1\\Config.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Config.cs",
+              "ToolTip": "E:\\C#_Projects\\ConsooleGame\\MyFirstC#GameInConsole\\ConsoleApp1\\Config.cs",
+              "RelativeToolTip": "ConsoleApp1\\Config.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T07:42:57.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameObjects.cs",
+              "DocumentMoniker": "E:\\C#_Projects\\ConsooleGame\\MyFirstC#GameInConsole\\ConsoleApp1\\GameObjects.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\GameObjects.cs",
+              "ToolTip": "E:\\C#_Projects\\ConsooleGame\\MyFirstC#GameInConsole\\ConsoleApp1\\GameObjects.cs",
+              "RelativeToolTip": "ConsoleApp1\\GameObjects.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAYwFQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T05:56:11.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Character.cs",
+              "DocumentMoniker": "E:\\C#_Projects\\ConsooleGame\\MyFirstC#GameInConsole\\ConsoleApp1\\Character.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Character.cs",
+              "ToolTip": "E:\\C#_Projects\\ConsooleGame\\MyFirstC#GameInConsole\\ConsoleApp1\\Character.cs",
+              "RelativeToolTip": "ConsoleApp1\\Character.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T05:49:19.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Map.cs",
+              "DocumentMoniker": "E:\\C#_Projects\\ConsooleGame\\MyFirstC#GameInConsole\\ConsoleApp1\\Map.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Map.cs",
+              "ToolTip": "E:\\C#_Projects\\ConsooleGame\\MyFirstC#GameInConsole\\ConsoleApp1\\Map.cs",
+              "RelativeToolTip": "ConsoleApp1\\Map.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAuwCMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T15:53:06.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\C#_Projects\\ConsooleGame\\MyFirstC#GameInConsole\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "E:\\C#_Projects\\ConsooleGame\\MyFirstC#GameInConsole\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T15:49:50.371Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

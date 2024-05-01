@@ -52,7 +52,7 @@ namespace Game.GameObjects
         int width;
         bool canFall = true;
         string _simvol;
-        public BigGameObject(int x, int y, string simvol, int sizeObjX, int sizeObjY, int width) : base(x, y, simvol)
+        public BigGameObject(int x, int y, string simvol, int sizeObjX = 2, int sizeObjY = 2, int width = 1) : base(x, y, simvol)
         {
             this._simvol = simvol;
             this.width = width;
@@ -78,9 +78,11 @@ namespace Game.GameObjects
                         return true;
                     }
                 }
+                canFall = true;
+                return false;
             }
-            canFall = true;
-            return false;
+            canFall = false;
+            return true;
         }
 
         public override void Draw(Field map)
@@ -104,7 +106,8 @@ namespace Game.GameObjects
     #region gameObjects
     public class BigStone : BigGameObject, IFallable
     {
-        public BigStone(int x, int y, string simvol, int sizeX, int sizeY, int width) : base(x, y, simvol, sizeX, sizeY, width) { }
+        public BigStone(int x, int y, string simvol, int sizeX = 2, int sizeY = 2, int width = 1) : 
+                                                                                                base(x, y, simvol, sizeX, sizeY, width) { }
 
     }
 

@@ -16,7 +16,7 @@ namespace Game
         public class Game
         {
             Random rand = new Random();
-            public Field map = new();
+            public Field map = new(100, 15);
 
             Character character = new Character(5, 5);
             ConsoleKeyInfo? userInput;
@@ -40,7 +40,7 @@ namespace Game
                     map.CreateMap();
                     map.DrawGameObjects();
                     map.Gravity();
-                    character.MoveCharacter();
+                    character.MoveCharacter(map);
                 }
             }
 
@@ -56,6 +56,8 @@ namespace Game
                             case ConsoleKey.Spacebar: character.state = Character.MoveState.jump; break;
                             case ConsoleKey.A: character.state = Character.MoveState.left; break;
                             case ConsoleKey.D: character.state = Character.MoveState.right; break;
+                            case ConsoleKey.Q: map.AddGameObject(new Stone(rand.Next(0, map.sizeX), rand.Next(1, map.sizeY - 1), "o")); break;
+                            case ConsoleKey.E: map.AddGameObject(new BigStone(rand.Next(0, map.sizeX), rand.Next(1, map.sizeY - 1), "#", 3, 3, 1)); break;
                             default: character.state = Character.MoveState.idle; break;
                         }
                 }

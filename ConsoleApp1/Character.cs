@@ -8,20 +8,34 @@ namespace Game.Characters
     {
         public enum MoveState { left, right, jump, idle }
         public MoveState state = MoveState.idle;
+
         public bool useGravity = true;
-        private bool isMoving = true;
+        private bool cdMove = true;
+        public bool isMoving;
         public bool onGround;
+
+        bool isRightLeg = true;
+        bool isLeftLeg = false;
+
         int sizeX;
         int sizeY;
         int jumpForce = 1;
-        string[] character = {  " o " ,
-                               @"/|\",
-                               @"/ \" };
+
+        public string leftHand = "/";
+        public string rightHand = @"\";
+        public string leftLeg = "/";
+        public string rightLeg = @"\";
+        string[] character;
 
         public Character(int x, int y) : base(x, y, "")
         {
-            sizeX = character[0].Length;
-            sizeY = character.Length;
+            sizeX = 3;
+            sizeY = 3;
+
+            character = new string[]
+                {   " o " ,              // " o "
+         $@"{leftHand}|{rightHand}",     // "/|\"
+          $@"{leftLeg} {rightLeg}" };    // "/ \"
         }
 
         public (int x, int y) GetPos() => (_x, _y);
@@ -37,17 +51,22 @@ namespace Game.Characters
             onGround = false;
             return false;
         }
-        public void MoveCharacter()
+        public void MoveCharacter(Field map)
         {
+
+            if (state != MoveState.idle)
+                isMoving = true;
+            else
+                isMoving = false;
             switch (state)
             {
-                case MoveState.left: MoveLeft(); break;
-                case MoveState.right: MoveRight(); break;
-                case MoveState.jump: Jump(); break;
+                case MoveState.left: MoveLeft(map); break;
+                case MoveState.right: MoveRight(map); break;
+                case MoveState.jump: Jump(map); break;
             }
         }
 
-        public async void Jump()
+        public async void Jump(Field map)
         {
             bool nextJump = true;
             if (onGround)
@@ -67,39 +86,38 @@ namespace Game.Characters
                         }
                 }
                 useGravity = true;
-
+                WalkAnimation();
             }
-
         }
 
-        public async void MoveRight()
+        public async void MoveRight(Field map)
         {
-            if (isMoving)
+            if (cdMove)
             {
-                isMoving = false;
+                cdMove = false;
                 _x++;
-                state = MoveState.idle;
-                await Task.Delay(100);
-                isMoving = true;
+                WalkAnimation();
+                await Task.Delay(130);
+                cdMove = true;
             }
             
 
         }
-        public async void MoveLeft()
+        public async void MoveLeft(Field map)
         {
-            if (isMoving)
+            if (cdMove)
             {
-                isMoving = false;
+                cdMove = false;
                 _x--;
-                state = MoveState.idle;
-                await Task.Delay(100);
-                isMoving = true;
+                WalkAnimation();
+                await Task.Delay(130);
+                cdMove = true;
             }
         }
 
         public override void Fall()
         {
-                _y++;
+            _y++;
         }
 
         public override void Draw(Field map)
@@ -109,8 +127,72 @@ namespace Game.Characters
                 {
                     if (character[i][j] != ' ')
                         if(_x+j > 0 && _x+j < map.sizeX - 1)
+                        {
                             map.map[_y + i, _x + j] = character[i][j].ToString();
+                        }
                 }
+        }
+
+        private async void WalkAnimation()
+        {
+            string inRight = ">";
+            string inLeft = "<";
+
+            if (isMoving && onGround)
+                switch (state)
+                {
+                    case MoveState.left:
+                        if (isRightLeg)
+                        {
+                            leftLeg = "/";
+                            rightLeg = inLeft;
+                            isLeftLeg = true;
+                            isRightLeg = false;
+                        }
+                        else
+                        {
+                            rightLeg = "\\";
+                            leftLeg = inLeft;
+                            isLeftLeg = false;
+                            isRightLeg = true;
+                        }
+                        break;
+                    case MoveState.right:
+                        if (isRightLeg)
+                        {
+                            leftLeg = "/";
+                            rightLeg = inRight;
+                            isLeftLeg = true;
+                            isRightLeg = false;
+                        }
+                        else
+                        {
+                            rightLeg = "\\";
+                            leftLeg = inRight;
+                            isLeftLeg = false;
+                            isRightLeg = true;
+                        }
+                        break;
+                }
+            else
+            {
+                leftLeg = "/";
+                rightLeg = "\\";
+            }
+            UpdateCharacter();
+        }
+
+        void UpdateCharacter()
+        {
+            character = new string[]
+                {   " o " ,              // " o "
+         $@"{leftHand}|{rightHand}",     // "/|\"
+          $@"{leftLeg} {rightLeg}" };    // "/ \"
+        }
+
+        void CheckCollision()
+        {
+
         }
     }
 }

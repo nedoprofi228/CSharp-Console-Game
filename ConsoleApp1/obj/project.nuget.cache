@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OpD6LQjTAGPzoO4PfEb7Bf6j8V1D3j8mOZSEMzMTrjRhViQfccKPB9vhgAgfQhHGY68IDS9j8j45lKC0b0eHeQ==",
+  "dgSpecHash": "vuiuIe2V8BeG6EOT50pb7HoFfaZdHLOFOAF/yLBooevyJn38pBK/hd0RsoQy4aqbg9BXRXHdfQ5xJxIyphAoVw==",
   "success": true,
-  "projectFilePath": "E:\\C#_Projects\\ConsooleGame\\C-Game\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "E:\\C#_Projects\\ConsooleGame\\MyFirstC#GameInConsole\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\antinoob\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\antinoob\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
